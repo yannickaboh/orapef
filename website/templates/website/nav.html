@@ -1,0 +1,62 @@
+
+		{% load static %}
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="top">
+								<div class="row">
+									<div class="col-md-6">
+										<div id="colorlib-logo">
+											<a href="{% url 'index' %}">ORA<span>PEF</span></a>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="num">
+											<span class="icon"><i class="icon-phone"></i></span>
+											<p><a href="#">+241 066 28 20 60</a><br><a href="#">+241 074 83 56 31</a></p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="loc">
+											<span class="icon"><i class="icon-location"></i></span>
+											<p><a href="#">Kalikak à l entrée du SAOTI, Libreville, GABON</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-wrap">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-8">
+								<div class="menu-1">
+									<ul>
+										<li class="active"><a href="{% url 'index' %}">Acceuil</a></li>
+										<li><a href="{% url 'commentcamarche' %}">Comment ça marche ?</a></li>
+										<li class="has-dropdown">
+											<a href="">Orientations</a>
+											<ul class="dropdown">
+												<li><a href="{% url 'formations' %}">Nos Formations</a></li>
+												<li><a href="{% url 'metiers' %}">Les Metiers</a></li>
+												<li><a href="{% url 'diplomes' %}">Les Diplômes</a></li>
+												<li><a href="{% url 'ecoles' %}">Les Collèges & Lycées</a></li>
+												<li><a href="{% url 'universites' %}">Nos Universités & Ecoles de Formation</a></li>
+												<li><a href="{% url 'stages' %}">Stages & Emplois</a></li>
+												<li><a href="{% url 'incubateurs' %}">Nos Incubateurs</a></li>
+												<li><a href="{% url 'evenements' %}">Nos Evènements</a></li>
+											</ul>
+										</li>
+										<li><a href="{% url 'services' %}">Nos Services</a></li>
+										<li><a href="{% url 'contact' %}">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>

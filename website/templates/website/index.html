@@ -1,0 +1,340 @@
+{% extends 'website/base.html' %}
+
+{% load static %}
+
+{% block title %}Acceuil{% endblock %}
+
+
+{% block css %}{% endblock %}
+
+
+{% block body %}
+
+	
+		<div id="colorlib-counter" class="colorlib-counters">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-md-push-2 counter-wrap">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 animate-box">
+								<div class="desc">
+									<p class="wrap">
+										<span class="icon"><i class="flaticon-healthy"></i></span>
+										<span class="colorlib-counter js-counter" data-from="0" data-to="38" data-speed="5000" data-refresh-interval="50"></span>
+									</p>
+									<span class="colorlib-counter-label">Lycées & Collèges</span>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 animate-box">
+								<div class="desc">
+									<p class="wrap">
+										<span class="icon"><i class="flaticon-hospital"></i></span>
+										<span class="colorlib-counter js-counter" data-from="0" data-to="133" data-speed="5000" data-refresh-interval="50"></span>
+									</p>
+									<span class="colorlib-counter-label">Formations</span>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 animate-box">
+								<div class="desc">
+									<p class="wrap">
+										<span class="icon"><i class="flaticon-healthy-1"></i></span>
+										<span class="colorlib-counter js-counter" data-from="0" data-to="4" data-speed="5000" data-refresh-interval="50"></span>
+									</p>
+									<span class="colorlib-counter-label">Incubateurs</span>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 animate-box">
+								<div class="desc">
+									<p class="wrap">
+										<span class="icon"><i class="flaticon-ambulance"></i></span>
+										<span class="colorlib-counter js-counter" data-from="0" data-to="1400" data-speed="5000" data-refresh-interval="50"></span>
+									</p>
+									<span class="colorlib-counter-label">Stages & Emplois</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="services-flex">
+							<div class="one-fifth no-border-bottom animate-box">
+								<div class="services">
+									<span class="icon">
+										<i class="flaticon-hospital"></i>
+									</span>
+									<div class="desc">
+										<h3><a href="#">Orientation Scolaire et Universitaire</a></h3>
+									</div>
+								</div>
+							</div>
+							<div class="one-fifth no-border-bottom animate-box">
+								<div class="services">
+									<span class="icon">
+										<i class="flaticon-healthy-1"></i>
+									</span>
+									<div class="desc">
+										<h3><a href="#">Orientation et Réorientation Professionelle</a></h3>
+									</div>
+								</div>
+							</div>
+							<div class="one-fifth no-border-bottom animate-box">
+								<div class="services">
+									<span class="icon">
+										<i class="flaticon-stethoscope"></i>
+									</span>
+									<div class="desc">
+										<h3><a href="#">Trouver le métier qui vous correspond</a></h3>
+									</div>
+								</div>
+							</div>
+							<div class="one-forth animate-box">
+								<div class="head">
+									<h2>Trouver un Stage ou un Emploi aisément</h2><br>
+									<div class="desc">
+										<p>
+											Tu es à la recherche d'un job étudiant, d’un stage, d'un job saisonnier ou même d’un premier emploi ? .
+										</p>
+										<a href="#" class="btn btn-primary">Postuler</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="services-no-flex">
+							<div class="one-fifth animate-box">
+								<div class="services">
+									<span class="icon">
+										<i class="flaticon-blood-donation"></i>
+									</span>
+									<div class="desc">
+										<h3><a href="#">Tout savoir sur les diplômes du CAP au Bac +10</a></h3>
+									</div>
+								</div>
+							</div>
+							<div class="one-fifth animate-box">
+								<div class="services">
+									<span class="icon">
+										<i class="flaticon-blood-donation"></i>
+									</span>
+									<div class="desc">
+										<h3><a href="#">Trouver son Conseiller d'orientation</a></h3>
+									</div>
+								</div>
+							</div>
+							<div class="one-fifth animate-box">
+								<div class="services">
+									<span class="icon">
+										<i class="flaticon-blood-donation"></i>
+									</span>
+									<div class="desc">
+										<h3><a href="#">Mon Orientation Post-Bac réussie.</a></h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-push-6 animate-box">
+						<img class="img-responsive about-img" src="{% static 'website/images/img_12.jpg' %}" alt="">
+					</div>
+					<div class="col-md-6 col-md-pull-6 animate-box">
+						<h2>A propos de ORAPEF</h2>
+						<p>
+							Sur orapef.com, retrouvez plus de 600 fiches métiers, des tests d'orientation gratuits, des infos pratiques sur les diplômes et les filières de formations, des témoignages de pros, de chefs d'entreprises, d'étudiants, d'apprentis, des conseils d'orientation personnalisés pour trouver le métier et la formation qui vous conviennent, des conseils pour trouver son stage... En bref, toutes les clés pour réussir son orientation scolaire et professionnelle !.
+						</p>
+							<div class="fancy-collapse-panel">
+	                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	                     <div class="panel panel-default">
+	                         <div class="panel-heading" role="tab" id="headingOne">
+	                             <h4 class="panel-title">
+	                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Notre Mission
+	                                 </a>
+	                             </h4>
+	                         </div>
+	                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+	                             <div class="panel-body">
+	                                 <div class="row">
+									      		<div class="col-md-6">
+									      			<p>Le Conseiller d'orientation vous aide dans vos choix pour une orientation scolaire réussie. Collégiens, lycéens ou étudiants, l'orientation scolaire est un sujet clé : se poser les bonnes questions s'avère essentiel pour trouver son métier. . </p>
+									      		</div>
+									      		<div class="col-md-6">
+									      			<p>Le coaching scolaire vous permet de faire un bilan d'orientation en partant de vos compétences, vos centres d'intérêts et votre personnalité</p>
+									      		</div>
+									      	</div>
+	                             </div>
+	                         </div>
+	                     </div>
+	                     <div class="panel panel-default">
+	                         <div class="panel-heading" role="tab" id="headingTwo">
+	                             <h4 class="panel-title">
+	                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Notre Vision
+	                                 </a>
+	                             </h4>
+	                         </div>
+	                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+	                             <div class="panel-body">
+	                                 <p>La vision d' <strong>ORAPEF</strong> est de former, orienter, réorienter le plus grand nombre de jeunes, employés afin de mettre sur le marché ce qu'il faut. Nos objectifs à long terme seront de combler les besoins en personnel suivant :</p>
+												<ul>
+													<li>10 000 Techniciens</li>
+													<li>500 Professionels de la santé</li>
+													<li>4000 Ingénieurs agricoles</li>
+												</ul>
+	                             </div>
+	                         </div>
+	                     </div>
+	                     <div class="panel panel-default">
+	                         <div class="panel-heading" role="tab" id="headingThree">
+	                             <h4 class="panel-title">
+	                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Pourquoi nous choisir
+	                                 </a>
+	                             </h4>
+	                         </div>
+	                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+	                             <div class="panel-body">
+	                                 <p>Pas évident de choisir son orientation ! Grâce à des tests d'orientation, confrontez vos options d'orientation à ce que vous êtes vraiment. Un moyen sympa d'affiner vos choix</p>	
+	                             </div>
+	                         </div>
+	                     </div>
+	                  </div>
+	               </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-choose">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="choose">
+						<div class="half img-bg" style="background-image: url({% static 'website/images/img_g3.jpg' %});"></div>
+						<div class="half features-wrap">
+							<div class="features-services animate-box">
+								<div class="colorlib-heading animate-box">
+									<h2>Qu'est-ce qui nous rend meilleur ?</h2>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="features animate-box">
+											<span class="icon text-center"><i class="flaticon-healthy-1"></i></span>
+											<div class="desc">
+												<h3>Meilleures Formations</h3>
+												<p>Tu as une idée de métier ou de domaine dans lequel tu pourrais travailler, mais sans savoir quel cursus suivre ? Nous dressons pour toi ici la liste des formations et des écoles qui pourraient te correspondre. </p>
+											</div>
+										</div>
+										<div class="features animate-box">
+											<span class="icon text-center"><i class="flaticon-stethoscope"></i></span>
+											<div class="desc">
+												<h3>Consultation Gratuite</h3>
+												<p>Tu souhaites t’orienter vers une voie professionnelle (CAP, BP) ? Tu préfères faire de longues études ou plutôt intégrer rapidement le marché du travail ? Il existe toute sorte de diplômes et de cursus qui peuvent convenir à tes envies </p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="features animate-box">
+											<span class="icon text-center"><i class="flaticon-medical-1"></i></span>
+											<div class="desc">
+												<h3>Enrolement en ligne</h3>
+												<p>Si tu penses plutôt être fait pour de longues études, tu peux par exemple continuer en Master (Bac +5) ou Doctorat (Bac +8) après avoir validé une Licence (Bac +3) </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="colorlib-doctor">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
+						<h2>Coach VICTORIA</h2>
+						<p>Présidente & CEO d'ORAPEF.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="item">
+									<div class="col-md-6">
+										<div class="doctor-desc">
+											<h3><a href="#">Victoria BERRE</a></h3>
+											<span class="specialty">Coach pour entrepreneur</span>
+											<p>Le coaching1 ou accompagnement est un accompagnement personnalisé cherchant à améliorer les compétences et la performance d'un individu, d'un groupe ou d'une organisation, grâce à l'amélioration des connaissances, l'optimisation des processus et des méthodes d'organisation et de contrôle.
+
+											Le coaching est le métier de l'accompagnement du dialogue entre le client et son coach. Il permet au client, par la construction de ces échanges, de trouver sa solution, c'est-à-dire, celle la plus adaptée à ses capacités, croyances, enjeux ou à sa situation. La notion de « coaching », manquant de contours légaux, elle peut être utilisée par certains sans réelle compétence.</p>
+											<p>Pendant longtemps le « développement personnel » a été défini comme un outil de manipulation2. Depuis peu les mentalités tendent à évoluer, la pratique du coaching personnel ayant connu un énorme bond en avant et de nombreux livres en font maintenant l'apologie.</p>
+											<p><a href="#" class="btn btn-primary">Contacter moi</a> <a href="#" class="btn btn-primary btn-outline">Prenez un rendez-vous</a></p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="doctor-img" style="background-image: url({% static 'website/images/coach.jpg' %});">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-testimonial" class="colorlib-bg-section">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-12 colorlib-heading">
+						<h2>Nos participants et leurs opinions</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="owl-carousel">
+							<div class="item">
+								<div class="testimony">
+									<span class="img-user" style="background-image: url({% static 'website/images/data9.png' %});"></span>
+									<span class="user">Yannick ABOH</span>
+									<blockquote>
+										<p>"J'ai pu grâce à ORAPEF trouver un poste de Responsable Informatique dans une bonne boite de la place."</p>
+										<p class="color"><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span></p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony">
+									<span class="img-user" style="background-image: url({% static 'website/images/person2.jpg' %});"></span>
+									<span class="user">Carl Bean</span>
+									<blockquote>
+										<p>"J'ai pu accroitre les compétences de mon personnel en leur donnant la possibilité de participer à des cycles de formation en management organiser par ORAPEF."</p>
+										<p class="color"><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span><span><i class="icon-star3"></i></span></p>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+{% endblock %}
+
+
+{% block javascript %}{% endblock %}
+
+
